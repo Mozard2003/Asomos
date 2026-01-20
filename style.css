@@ -3,7 +3,7 @@
 /* 第三段: 專屬頁面 */
 /* 第四段: 響應式 */
 
-/* 第一段: 主結構 */
+/* 第一段: 置入 & 主結構 */
 @import url("./style/dark-theme.css");
 @import url("./style/light-theme.css");
 
@@ -427,7 +427,7 @@ main#index{
 #index-square h1{
   margin: 0;
   padding: 0;
-  font-size: 6rem; 
+  font-size: 6.5rem;
   font-weight: 900; 
   font-family: Impact, Haettenschweiler, 'Arial Narrow Bold', sans-serif; 
   overflow-wrap: break-word;
@@ -712,7 +712,7 @@ div.table-2 > span:nth-child(2n-1){
   }
 
   #index-square h1{
-    font-size: 5rem;
+    font-size: 6rem;
   }
 
   .button-rows{
@@ -750,10 +750,12 @@ div.table-2 > span:nth-child(2n-1){
     -webkit-backdrop-filter: blur(20px);
     backdrop-filter: blur(20px);
   }
+
   #top-nav:has( #subpage-nav:checked ) ul{
     display: flex;
     flex-flow: column;
     gap: 2px;
+    width: 100% !important;
   }
   #top-nav:has( #subpage-nav:checked ) #hamburger{
     display: none;
@@ -791,7 +793,7 @@ div.table-2 > span:nth-child(2n-1){
   }
 
   #index-square h1{
-    font-size: 4rem;
+    font-size: 5rem;
   }
 
   #index-square p{
@@ -830,7 +832,7 @@ div.table-2 > span:nth-child(2n-1){
 
 @media (max-width: 550px){
   #index-square h1{
-    font-size: 3.5rem;
+    font-size: 4rem;
   }
 
 }

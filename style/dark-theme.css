@@ -6,8 +6,9 @@
   --footer-background: hsl(var(--hue), 10%, 9%);
   --text-glow-color: hsl(var(--hue), 80%, 60%);
   --nav-hover-color: hsla(var(--hue), 40%, 60%, 0.4);
+
   --command-hover-color: hsla(var(--hue), 0%, 20%, 0.6);
-  --command-active-color: hsla(170, 60%, 30%, 0.6);
+  --command-active-color: hsla(calc(var(--hue) - 60), 20%, 30%, 0.6);
   --command-detail-bg-color: hsla(var(--hue), 20%, 20%, 0.4);
 }
 
