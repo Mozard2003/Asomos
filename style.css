@@ -7,6 +7,27 @@
 @import url("./style/dark-theme.css");
 @import url("./style/light-theme.css");
 
+@font-face {
+  font-family:"Impact";
+  src: url("./fonts/impact.ttf") format("ttf");
+  font-weight: normal;
+  font-style: normal;
+}
+
+@font-face {
+  font-family:"Segoe UI";
+  src: url("./fonts/segoeui.ttf") format("ttf");
+  font-weight: normal;
+  font-style: normal;
+}
+
+@font-face {
+  font-family:"sans-serif";
+  src: url("./fonts/micross.ttf") format("ttf");
+  font-weight: normal;
+  font-style: normal;
+}
+
 *, *::before, *::after{
   margin: 0;
   padding: 0;
@@ -429,7 +450,7 @@ main#index{
   padding: 0;
   font-size: 6.5rem;
   font-weight: 900; 
-  font-family: Impact, Haettenschweiler, 'Arial Narrow Bold', sans-serif; 
+  font-family: Impact, sans-serif; 
   overflow-wrap: break-word;
 }
 
